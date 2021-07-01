@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+ <head>
+ 
+  <title>Edit Menu Item</title>
+  <link rel="stylesheet" href="https:\\cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+  <link rel="stylesheet" href="Menu.css"></link>
+ </head>
+ <body>
+ <div class="d1">
+ <label class="me">truYum</label>
+ <i class="fa fa-spoon"></i>
+
+ <label class="a"></label>
+ <label class="a"><ins>Menu</ins></label>
+ </div>
+  
+
+ <div class="d2">
+
+ <label>Edit Menu Details</label><br>
+ <label>Name</label><br>
+ <input></input>
+ <table>
+ <tr>
+	<td><strong>Price</td>
+	<td><strong>Active</td>
+	<td><strong>Date of Launch</td>
+	<td><strong>Category</td>
+ </tr>
+ <tr>
+	<td><input></input></td>
+	<td><input type="radio" name="any">Yes</input><input type="radio" name="any">No</input></td>
+	<td><input></input></td>
+	<td><select>
+	<option>Main Course</option>
+	<option>Starters</option>
+	<option>Dessert</option>
+	<option>Drinks</option>
+	</select>
+	</td>
+ </tr>
+ </table>
+ <input type="checkbox">Free Delivery</input>
+ <label></label><br>
+ <input type="Submit" value="save"></input>
+ </div>
+ <div class="d3">
+ <label>Copyright @ 2019</label>
+ </div>
+  
+ </body>
+</html>

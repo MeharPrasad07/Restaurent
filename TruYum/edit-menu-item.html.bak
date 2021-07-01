@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+ <head>
+ 
+  <title>Edit Menu Item</title>
+  <link rel="stylesheet" href="https:\\cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+  <link rel="stylesheet" href="Menu.css"></link>
+ </head>
+ <body>
+ 
+ <div class="d1">
+ <label class="me">truYum</label>
+ <i class="fa fa-cutlery" id="clr2"></i>
+
+ <label class="a"></label>
+ <label ><a href="menu-item-list-admin.html" class="a" id="mar">Menu</a></label>
+ </div>
+  
+
+ <div class="d2">
+<form>
+ <label id="labb">Edit Menu Item</label><br><br><br><br>
+ <label id="na"><strong>Name</strong></label><br>
+ <input placeholder="eg:sandwhich" id="in"  pattern="[A-Z]{1}[a-z]{1,65}" title="Name Should have Atleast 2 Characters and Must start with Upper Case" required></input><br><br><br>
+ <table>
+ <tr>
+	<td class="aln1"><strong>Price(Rs.)</td>
+	<td class="aln1"><strong>Active</td>
+	<td class="aln1" ><strong>Date of Launch</td>
+	<td class="aln1"><strong>Category</td>
+ </tr>
+ <tr>
+	<td><input id="prc" placeholder="eg:170" required type="number"></input></td>
+	<td class="aln1"><input type="radio" name="any"class="size" required>Yes</input><input type="radio" name="any" class="size" required>No</input></td>
+	<td><input class="wid" placeholder="eg:17/12/2021" required></input></td>
+	<td><select class="wid" required>
+	<option>Main Course</option>
+	<option>Starters</option>
+	<option>Dessert</option>
+	<option>Drinks</option>
+	</select>
+	</td>
+ </tr>
+ </table>
+ <br>
+ <input type="checkbox" id="na" class="size" >Free Delivery</input>
+ <br><br><br>
+ <input type="submit" value="Save" id="bu" formaction="edit-menu-item-status.html"></input>
+ </form>
+ </div>
+ <div class="d3">
+ <label class="me" id="clr3">Copyright @ 2019</label>
+ </div>
+  
+ </body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  
+  <title>Cart</title>
+  <link rel="stylesheet" href="https:\\cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+  <link rel="stylesheet" href="Menu.css"></link>
+ </head>
+ <body>
+ <div class="d1">
+ <label class="me">truYum</label>
+ <i class="fa fa-spoon" id="clr2"></i>
+
+ <label  ><a href="Cart.html"class="a" >Cart</a></label>
+ <label ><a href="menu-item-list-customer.html" class="a">Menu</a></label>
+ </div>
+  
+
+ <div class="d2">
+
+ <table>
+ <tr>
+	<td class="menu">Cart</td>
+	
+ </tr>
+ <tr>
+	<td class="aln1"><strong>Name</td>
+	<td><strong>Free delivery</td>
+	<td class="align"><strong>Price</td>
+ </tr>
+ <tr>
+	<td class="aln1">Sandwhich</td>
+	<td class="aln1">Yes</td>
+	<td class="align">Rs.99.00</td>
+	<td><a href="cart-notification.html" class="clr">Delete</a></td>
+ </tr>
+ <tr>
+	<td class="aln1">Burger</td>
+	<td class="aln1">No</td>
+	<td class="align">Rs.129.00</td>
+	<td><a href="cart-notification.html" class="clr">Delete</a></td>
+ </tr>
+  <tr>
+	<td class="aln1">Pizza</td>
+	<td class="aln1">No</td>
+	<td class="align">Rs.149.00</td>
+	<td><a href="cart-notification.html" class="clr">Delete</a></td>
+ </tr>
+ <tr>
+ <td></td>
+ <td class="aln1"><strong>Total</td>
+ <td class="align"><strong>Rs.377.00</td>
+
+ 
+ </tr>
+
+ </table>
+ </div>
+ <div class="d3">
+ <label class="me" id="clr3">Copyright @ 2019</label>
+ </div>
+  
+ </body>
+</html>
+

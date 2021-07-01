@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  
+  <title>Edit Menu</title>
+  <link rel="stylesheet" href="https:\\cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+  <link rel="stylesheet" href="Menu.css"></link>
+ </head>
+ <body>
+ <div class="d1">
+ <label class="me">truYum</label>
+ <i class="fa fa-spoon"id="clr2"></i>
+
+ 
+ <label ><a href="menu-item-list-admin.html" class="a" id="mar">Menu</a></label>
+ </div>
+  
+
+ <div class="d2">
+ <label id="labb">  Edit Menu Item Status</label><br><br>
+ <label id="lab">  Menu Item Details Saved Successfully....</label>
+ </div>
+ <div class="d3">
+ <label class="me" id="clr3">Copyright @ 2019</label>
+ </div>
+  
+ </body>
+</html>
